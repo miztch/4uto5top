@@ -5,7 +5,7 @@ You can pronounce "auto-stop"!
 ## What this Lambda function does
 - stop all EC2 instances 
 - stop all RDS instances
-- terminate EC2 instances in all AutoScaling groups
+- terminate EC2 instances in all AutoScaling groups (by changing group size)
 
 This function is triggered by EventBridge Event, and affects to the resources in the region deployed.
 
